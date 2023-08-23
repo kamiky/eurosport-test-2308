@@ -1,0 +1,9 @@
+{
+  "weight": "Weight",
+  "height": "Height",
+  "age": "Age",
+  "rank": "Rank",
+  "total": "Total of games played",
+  "wins": "Wins",
+  "losses": "Losses"
+}

@@ -1,0 +1,54 @@
+directive @cacheControl(
+  maxAge: Int
+  scope: CacheControlScope
+) on FIELD_DEFINITION | OBJECT | INTERFACE
+enum CacheControlScope {
+  PUBLIC
+  PRIVATE
+}
+
+type Picture {
+  url: String!
+}
+
+type Country {
+  picture: Picture!
+  code: String!
+}
+
+enum Sex {
+  MAN
+  WOMAN
+}
+
+type Stats {
+  rank: Int!
+  points: Int!
+  weight: Int!
+  height: Int!
+  age: Int!
+}
+
+type Player {
+  id: String!
+  firstname: String!
+  lastname: String!
+  shortname: String!
+  sex: Sex!
+  picture: Picture!
+  country: Country!
+  stats: Stats!
+}
+
+type Match {
+  id: String!
+  players: [Player!]!
+  winner: Player!
+  startTime: String!
+  endTime: String!
+}
+
+type Query {
+  players: [Player!]!
+  matches: [Match!]!
+}

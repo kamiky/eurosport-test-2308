@@ -1,0 +1,58 @@
+[
+  {
+    "id": "player-1",
+    "firstname": "player-firstname-1",
+    "lastname": "player-lastname-1",
+    "shortname": "S.WAW",
+    "sex": "MAN",
+    "country": {
+      "picture": {
+        "url": "https://i.eurosport.com/_iss_/geo/country/flag/large/2213.png",
+        "__typename": "Picture"
+      },
+      "code": "SUI",
+      "__typename": "Country"
+    },
+    "stats": {
+      "rank": 1,
+      "points": 1,
+      "weight": 1000,
+      "height": 100,
+      "age": 1,
+      "__typename": "Stats"
+    },
+    "picture": {
+      "url": "https://i.eurosport.com/_iss_/person/pp_clubteam/large/325225.jpg",
+      "__typename": "Picture"
+    },
+    "__typename": "Player"
+  },
+  {
+    "id": "player-2",
+    "firstname": "player-firstname-2",
+    "lastname": "player-lastname-2",
+    "shortname": "R.NAD",
+    "sex": "MAN",
+    "country": {
+      "picture": {
+        "url": "https://i.eurosport.com/_iss_/geo/country/flag/large/2203.png",
+        "__typename": "Picture"
+      },
+      "code": "ESP",
+      "__typename": "Country"
+    },
+    "stats": {
+      "rank": 2,
+      "points": 2,
+      "weight": 2000,
+      "height": 200,
+      "age": 2,
+      "__typename": "Stats"
+    },
+    "picture": {
+      "url": "https://i.eurosport.com/_iss_/person/pp_clubteam/large/435121.jpg",
+      "__typename": "Picture"
+    },
+    "__typename": "Player"
+  }
+]

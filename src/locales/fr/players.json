@@ -1,0 +1,9 @@
+{
+  "weight": "Poids",
+  "height": "Taille",
+  "age": "Âge",
+  "rank": "Rang",
+  "total": "Nombre de parties jouées",
+  "wins": "Victoires",
+  "losses": "Défaites"
+}
